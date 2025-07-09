@@ -18,7 +18,7 @@ const sendEmail = async (to, subject, html) => {
       html: htmlBody,
       attachments: [
         {
-          filename: "Harshita_SDE.pdf",
+          filename: "Harshita_Rajpal.pdf",
           path: RESUME_PATH,
           contentType: "application/pdf",
         },

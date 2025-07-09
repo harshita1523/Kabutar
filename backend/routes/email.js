@@ -22,7 +22,8 @@ router.post("/send-email", upload.single("excel"), async (req, res) => {
     for (const row of data) {
       try {
         const html = fillTemplate(template, row);
-        await sendEmail(row.email, subject, html);
+        const emailSubject = fillTemplate(subject, row);
+        await sendEmail(row.email, emailSubject, html);
 
         if (socketId) {
           io.to(socketId).emit("email-status", {
