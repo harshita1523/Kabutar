@@ -16,7 +16,6 @@ Perfect for use-cases like campaigns, invites, or internal communication, with a
 
 ## 📸 Demo
 
-![demo-gif](https://your-demo-link.com) <!-- optional GIF/image -->
 
 ## 🛠️ Tech Stack
 
