@@ -1,4 +1,4 @@
-# Kabutar ✈️📨
+# Kabutar 🦅📨
 
 **Mail-Pilot** is a real-time bulk email sender built using **Node.js**, **Express**, **Nodemailer**, and **WebSockets**. It allows users to upload an email **template** and an **Excel sheet** with recipients' data — then sends personalized emails in bulk and shows real-time delivery status on the UI.
 
